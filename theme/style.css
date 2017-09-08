@@ -1,3 +1,6 @@
+#Top{
+    font-weight: bold;
+}
 h1{
     color:hotpink;
 }
@@ -6,4 +9,10 @@ h1{
 }
 #emphatic{
     font-weight: Bold;
+}
+.sapphire{
+    color: blue;
+}
+#ruby{
+    color: red;
 }
