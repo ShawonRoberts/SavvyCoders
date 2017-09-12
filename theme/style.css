@@ -2,6 +2,9 @@
     background-color: grey;
     font-weight: bold;
 }
+#textborder{
+    border: 1px solid black;
+}
 h1{
     color:hotpink;
 }
@@ -16,4 +19,8 @@ h1{
 }
 #ruby{
     color: red;
+}
+footer{
+    background-color: tomato;
+    color: darkmagenta;
 }
