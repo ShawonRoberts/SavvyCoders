@@ -1,6 +1,14 @@
-#Top{
+.Top{
     background-color: grey;
     font-weight: bold;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.container{
+    max-width: 750px;
+    margin: 0 auto;
 }
 #textborder{
     border: 1px solid black;
