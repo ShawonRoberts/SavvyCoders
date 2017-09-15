@@ -1,7 +1,25 @@
-#Menu{
-    position: absolute;
-    top: 0;
-    left: 0;
+#menu:hover > ul {
+  display: list-item;
+}
+#menu {
+  font-family: sans-serif;
+  margin: 80px;
+  display: inline;
+  cursor: pointer;
+  position: relative;
+}
+
+#menu > ul {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  position: absolute;
+  top: 17px;
+  left: 0;
+
+  display: none;
 }
 .Hlink{
     text-decoration: none;
@@ -33,8 +51,7 @@ h1{
 .sapphire{
     color: blue;
 }
-#ruby{
-    color: red;
+
 }
 footer{
     background-color: tomato;
