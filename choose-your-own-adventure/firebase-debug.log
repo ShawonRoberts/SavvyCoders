@@ -1,0 +1,62 @@
+[debug] [2017-09-22T01:13:53.576Z] ----------------------------------------------------------------------
+[debug] [2017-09-22T01:13:53.611Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shawon\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-22T01:13:53.612Z] CLI Version:   3.10.0
+[debug] [2017-09-22T01:13:53.612Z] Platform:      win32
+[debug] [2017-09-22T01:13:53.612Z] Node Version:  v8.4.0
+[debug] [2017-09-22T01:13:53.614Z] Time:          Thu Sep 21 2017 20:13:53 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:13:53.614Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-22T01:13:53.686Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-22T01:13:53.687Z] > authorizing via signed-in user
+[debug] [2017-09-22T01:13:53.690Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-22T01:13:53.691Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/z_3Kf5rWj9GrDmv6hKi6nkarQjhJRMDhN88bbVSlRVY',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Sep 21 2017 20:13:53 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:13:54.624Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T01:13:54.682Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/savcode  
+ Thu Sep 21 2017 20:13:54 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:13:55.039Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T01:13:55.040Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/savcode/tokens  
+ Thu Sep 21 2017 20:13:55 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:13:55.646Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Shawon\code\SavvyCoders\ShawonRoberts'...
+[info] 
+[debug] [2017-09-22T01:13:55.652Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/savcode  
+ Thu Sep 21 2017 20:13:55 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:13:55.903Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T01:13:55.904Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/707959504042/clients/_:getWebAppConfig  
+ Thu Sep 21 2017 20:13:55 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:13:56.191Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-09-22T01:33:20.934Z] ----------------------------------------------------------------------
+[debug] [2017-09-22T01:33:20.937Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shawon\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-22T01:33:20.938Z] CLI Version:   3.10.0
+[debug] [2017-09-22T01:33:20.938Z] Platform:      win32
+[debug] [2017-09-22T01:33:20.938Z] Node Version:  v8.4.0
+[debug] [2017-09-22T01:33:20.939Z] Time:          Thu Sep 21 2017 20:33:20 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:33:20.939Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-22T01:33:20.958Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-22T01:33:20.958Z] > authorizing via signed-in user
+[debug] [2017-09-22T01:33:20.962Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/savcode  
+ Thu Sep 21 2017 20:33:20 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:33:21.321Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T01:33:21.322Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/savcode/tokens  
+ Thu Sep 21 2017 20:33:21 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:33:22.114Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Shawon\code\SavvyCoders\ShawonRoberts'...
+[info] 
+[debug] [2017-09-22T01:33:22.120Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/savcode  
+ Thu Sep 21 2017 20:33:22 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:33:22.422Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-22T01:33:22.423Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/707959504042/clients/_:getWebAppConfig  
+ Thu Sep 21 2017 20:33:22 GMT-0500 (Central Daylight Time)
+[debug] [2017-09-22T01:33:22.799Z] <<< HTTP RESPONSE 200
+[info] +  hosting: Local server: http://localhost:5000
+
