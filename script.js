@@ -1,11 +1,7 @@
-function promptAndGreetUser(){
-    var userInput = prompt( "What is your name?" );
-
-    if( !userInput ){
-        userInput = prompt( "Whats your name silly?" );
-    }
-    else{
-        alert( "Hello " + userInput );
-    }
+/* globals $ */
+/* eslint no console rule */
+function clickedHandler(){
+    console.log( "li clicked!" );
+    $( "ol" ).off( "click",clickedHandler );
 }
-promptAndGreetUser();
+$( "ol" ).on( "click", "li", clickedHandler );
